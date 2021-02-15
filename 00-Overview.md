@@ -1,5 +1,5 @@
 
-![](PhotinoFullLogo.png)
+![](photino-logo-full.png)
 # Overview
 
 Photino is a set of technologies for creating desktop apps with web (HTML/CSS/JavaScript) UIs. TryPhotino.io maintains the .NET build out and encourages the community to develop the Photino.Native control for use in other languages and platforms. We encourage and will support development of Photino.CPP, Photino.Rust, Photino.Go and others.
