@@ -1,0 +1,21 @@
+{
+  "title": "Photino Docs",
+  "owner": "TryPhotino",
+  "language": "en-US",
+  "version": "1.0",
+  "topics": [
+    {
+      "title": "Welcome to the Photino Docs",
+      "topics": [
+        {
+          "title": "Read Me",
+          "link": "README.md"
+        },
+        {
+          "title": "Overview",
+          "link": "00-Overview.md"
+        }
+      ]
+    }
+  ]
+}
