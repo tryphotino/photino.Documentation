@@ -30,3 +30,7 @@ You can test running apps from the WSL shell by installing some sample X Window 
 You Photino apps will now run on your Windows desktop as well:
 
 ![](PhotinoInWSL2.png)
+
+In order to save the `export DISPLAY=` command so that it's available every time you start WSL2, use your favorite text editor to edit the *.profile* file in the user's home folder. Since I have VS Code installed on my Windows machine (and not in WSL2), I just enter `code` at the shell prompt to start it up, then open a folder and type `/home/<username>`. Then select the .profile file to open it. Add the *export DISPLAY=XXX.XXX.XXX.XXX:0.0* command to the bottom of the file and save it.
+
+![](AddExportDisplayToProfile.png)
