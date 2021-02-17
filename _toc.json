@@ -4,8 +4,8 @@
   "language": "en-US",
   "version": "1.0",
   "settings": {
-    "logoPath": "photino-logo-full.png",
-    "siteIcon": "favicon.ico"
+    "logoPath": "https://raw.githubusercontent.com/tryphotino/Photino.Documentation/master/photino-logo-full.png",
+    "siteIcon": "https://raw.githubusercontent.com/tryphotino/Photino.Documentation/master/photino-logo-rings.png"
   },
   "topics": [
     {
