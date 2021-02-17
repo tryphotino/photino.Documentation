@@ -4,6 +4,7 @@
   "language": "en-US",
   "version": "1.0",
   "settings": {
+    "allowThemeSwitching": true,
     "siteIcon": "https://raw.githubusercontent.com/tryphotino/Photino.Documentation/master/photino-logo-rings.png"
   },
   "topics": [
