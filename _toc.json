@@ -3,6 +3,8 @@
   "owner": "TryPhotino",
   "language": "en-US",
   "version": "1.0",
+  "logoPath": "./photino-logo-full.png",
+  "siteIcon": "./photino-logo-rings.png",
   "topics": [
     {
       "title": "Welcome to the Photino Docs",
