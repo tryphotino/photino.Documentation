@@ -4,8 +4,8 @@
   "language": "en-US",
   "version": "1.0",
   "settings": {
-    "logoPath": "./photino-logo-full.png",
-    "siteIcon": "./photino-logo-rings.png"
+    "logoPath": "photino-logo-full.png",
+    "siteIcon": "favicon.ico"
   },
   "topics": [
     {
