@@ -44,6 +44,10 @@
           "link": "06-Photino.VSCodeTemplates.md"
         },
         {
+          "title": "Contributor Info: Dev Process",
+          "link": "50-ContributorInfo-DevelopmentProcess.md"
+        },
+        {
           "title": "Running Photino in WSL",
           "link": "55-Running Photino Apps In Windows SubSystem for Linux (WSL).md"
         },
