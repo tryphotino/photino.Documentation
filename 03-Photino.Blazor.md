@@ -3,7 +3,7 @@
 This document is for .NET developers who would like to understand or contribute to the <span>Photino.</span>NET and Photino.Blazor projects. It is a reference implementation of the Photino.Native project for the .NET development platform using Blazor.
 
 ## Overview
-Photino.Blazor builds on <span>Photino.</span>NET by using the <span>Photino.</span>NET NuGet package. It's purpose is to make it easy for .NET developers to create .NET 5 and later desktop applications using a Blazor web UI that can work cross-platform on Windows, Linux and Mac instead of building OS specific UIs with technologies like Windows Forms, Windows Presentation Foundation (WPF), Xcode, Swift, or GTK. It simply adds Blazor capabilities to the .NET package.
+Photino.Blazor builds on <span>Photino.</span>NET by using the <span>Photino.</span>NET NuGet package. Its purpose is to make it easy for .NET developers to create .NET 5 and later desktop applications using a Blazor web UI that can work cross-platform on Windows, Linux and Mac instead of building OS specific UIs with technologies like Windows Forms, Windows Presentation Foundation (WPF), Xcode, Swift, or GTK. It simply adds Blazor capabilities to the .NET package.
 
 If non-Blazor .NET web UIs are desired, please see the <span>Photino.</span>NET documentation.
 
