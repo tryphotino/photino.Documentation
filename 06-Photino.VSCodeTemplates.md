@@ -47,7 +47,7 @@ Pack All Project Templates
 | :----- | :-------------- |
 | Owners | TryPhotino |
 | ProjectUrl | https://tryphotino.io |
-| Copyright | TryPhotino 2020 |
+| Copyright | TryPhotino 2021 |
 <br>
 
 ## Upload package to NuGet
