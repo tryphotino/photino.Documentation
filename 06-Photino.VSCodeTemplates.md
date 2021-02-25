@@ -51,7 +51,7 @@ Pack All Project Templates
 <br>
 
 ## Upload package to NuGet
-* Log into ( https://nuget.org ) with your Microsoft ID
+* Log into <https://nuget.org> with your Microsoft ID
 * Click the Upload link and manually upload the package update
 
 
