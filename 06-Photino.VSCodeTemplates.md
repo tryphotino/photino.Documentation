@@ -45,7 +45,7 @@ Pack All Project Templates
 
 | Tag | Value to use |
 |-----|--------------|
-| Owners |	TryPhotino|
+| Owners | TryPhotino |
 | ProjectUrl | https://tryphotino.io |
 | Copyright | TryPhotino 2020 |
 <br>
