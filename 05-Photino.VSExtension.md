@@ -19,8 +19,9 @@ Open the solution in Visual Studio 2019 or later with the **ASP.NET and web deve
 1.	Open the Photino.Samples solution [GitHub]( https://github.com/tryphotino/photino.Samples )
 2.	Update the samples as required and ensure they build and run correctly
 3.	From the Project menu, select Export Template… 
-4.	For each project, enter description as: “Photino.XXX Sample application with XXX UI”
-5.	Set icon and preview images if you have them
+4.  Select *Project Template*
+5.	For each project, enter description as: “Photino.XXX Sample application with XXX UI”
+6.	Set icon and preview images if you have them
 
 Zip files are written to:
 * C:\Users\xxxx\Documents\Visual Studio 2019\Templates\ProjectTemplates
