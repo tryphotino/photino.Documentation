@@ -44,7 +44,7 @@ Pack All Project Templates
 7.	You must fill in some of the data manually as `dotnet pack` does not work with the following tags:
 
 | Tag | Value to use |
-| ----- | -------------- |
+| :----- | :-------------- |
 | Owners | TryPhotino |
 | ProjectUrl | https://tryphotino.io |
 | Copyright | TryPhotino 2020 |
