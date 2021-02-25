@@ -8,7 +8,7 @@ The VS Code Templates project intalls project templates for creating the Photino
 
 Photino project templates create bare-bones sample applications for various Photino project flavors such as .NET (plain html), Angular, React, Vue, and Blazor. Installing the project templates for Visual Studio 2019, the dotnet CLI and/or VS Code is the easiest way to get up and running creating Photino apps for .NET 5.
 
-The Visual Stuido solution source code can be found in the [GitHub repository]("https://github.com/tryphotino/photino.VSCodeTemplates")
+The Visual Stuido solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/photino.VSCodeTemplates )
 
 ## Usage Instructions 
 If you just want to use the project templates (not become a contributor), we recommend installing the project templates by using the dotnet CLI to install the templates NuGet package:
@@ -17,12 +17,12 @@ If you just want to use the project templates (not become a contributor), we rec
 * Type `dotnet new -l` to list all install project templates or `dotnet new -u` to list details about each template
 * Type `dotnet new -u TryPhotino.VSCode.Project.Templates` to uninstall the templates
 
- The [NuGet Package]("https://www.nuget.org/packages/TryPhotino.VSCode.Project.Templates/").
+ The [NuGet Package]( https://www.nuget.org/packages/TryPhotino.VSCode.Project.Templates/ ).
 
 ## Building
 Create/Test A Single Project Template
-1.	Open a command prompt in the *<...>\Photino\photino.PhotinoSamples.VSCodeTemplates\working\templates* folder [GitHub]("https://github.com/tryphotino/PhotinoSamples.VSCodeTemplates")
-2.	Copy the latest versions of the source code for the projects in the Photino.PhotinoSamples solution into the matching folders in PhotinoSamples.VSCodeTemplates [GitHub]("https://github.com/tryphotino/photino.Samples")
+1.	Open a command prompt in the *<...>\Photino\photino.PhotinoSamples.VSCodeTemplates\working\templates* folder [GitHub]( https://github.com/tryphotino/PhotinoSamples.VSCodeTemplates )
+2.	Copy the latest versions of the source code for the projects in the Photino.PhotinoSamples solution into the matching folders in PhotinoSamples.VSCodeTemplates [GitHub]( https://github.com/tryphotino/photino.Samples )
 3.	Type `dotnet run` at the prompt to ensure each project builds and runs correctly
 4.	Verify the contents of the template.json files in the .template.config sub folders for each project
 5.	Delete the bin and obj folders, any, .gitignore or other files that should not be part of the templates (do not delete the .template.config folders)

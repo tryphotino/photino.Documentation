@@ -8,15 +8,15 @@ The Visual Studio Extension intalls project templates for creating the Photino.N
 
 Photino project templates create bare-bones sample applications for various Photino project flavors such as .NET (plain html), Angular, React, Vue, and Blazor. Installing the project templates for Visual Studio 2019, the dotnet CLI and/or VS Code is the easiest way to get up and running creating Photino apps for .NET 5.
 
-The Visual Stuido solution source code can be found in the [GitHub repository]("https://github.com/tryphotino/photino.VSExtension")
+The Visual Stuido solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/photino.VSExtension )
 
 ## Usage Instructions 
-If you just want to use the project templates (not become a contributor), we recommend installing the project templates for Visual Studio 2019 and later through the Visual Studio Manage Extensions dialog by searching on Photino or from the [Visual Studio Marketplace]("https://marketplace.visualstudio.com/items?itemName=TryPhotino.PhotinoSamplesVSExtension").
+If you just want to use the project templates (not become a contributor), we recommend installing the project templates for Visual Studio 2019 and later through the Visual Studio Manage Extensions dialog by searching on Photino or from the [Visual Studio Marketplace]( https://marketplace.visualstudio.com/items?itemName=TryPhotino.PhotinoSamplesVSExtension ).
 
 ## Building
 Open the solution in Visual Studio 2019 or later with the **ASP.NET and web development**, **.NET desktop development**, and **Visual Studio extension development** workloads installed.
 
-1.	Open the Photino.Samples solution [GitHub]("https://github.com/tryphotino/photino.Samples")
+1.	Open the Photino.Samples solution [GitHub]( https://github.com/tryphotino/photino.Samples )
 2.	Update the samples as required and ensure they build and run correctly
 3.	From the Project menu, select Export Template… 
 4.	For each project, enter description as: “Photino.XXX Sample application with XXX UI”
@@ -28,7 +28,7 @@ Zip files are written to:
 
 Project templates will now be available on your dev machine and you can copy the .zip files from the My Exported Templates folder to the ProjectTemplates folder on other machines to ‘install them’ for testing.
 
-1.	Open the PhotinoSamples.VSExtension solution [GitHub]("https://github.com/tryphotino/PhotinoSamples.VSExtension")
+1.	Open the PhotinoSamples.VSExtension solution [GitHub]( https://github.com/tryphotino/PhotinoSamples.VSExtension )
 2.	Copy the .zip template files created above to the PhotinoSamples project folder
 3.	Add any new .zip files to the project and set the Copy to Output properties to Copy Always
 4.	Open the source.extension.vsixmanifest file and edit the Metadata properties

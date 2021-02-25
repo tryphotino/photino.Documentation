@@ -1,22 +1,22 @@
 # Photino vs. Electron
 Mike Yeager
 
-[Electron Documentation]("https://electronjs.org/docs")
+[Electron Documentation]( https://electronjs.org/docs )
 
 ## Browser Control Used in Native Window
 **Electron** calls this the Renderer process and uses Chromium in a native window. Chromium downloaded with each app. 
 
 **Photino** tries to use whatever is normally included in the OS: 
-* Windows - Chromium Edge [webview2]("https://docs.microsoft.com/en-us/microsoft-edge/webview2/?ranMID=24542&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&epi=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&irgwc=1&OCID=AID2000142_aff_7593_1243925&tduid=(ir__jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00)(7593)(1243925)(je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ)()&irclickid=_jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00") 
-* Linux - [WebKitGTK+2]("https://webkitgtk.org/") 
-* Mac - [WKWebView]("https://developer.apple.com/documentation/webkit/wkwebview")
+* Windows - Chromium Edge [webview2]( https://docs.microsoft.com/en-us/microsoft-edge/webview2/?ranMID=24542&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&epi=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&irgwc=1&OCID=AID2000142_aff_7593_1243925&tduid=(ir__jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00)(7593)(1243925)(je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ)()&irclickid=_jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00 ) 
+* Linux - [WebKitGTK+2]( https://webkitgtk.org/ ) 
+* Mac - [WKWebView]( https://developer.apple.com/documentation/webkit/wkwebview )
 
 ## Host Application
-**Electron** calls this the Main process and uses [Node.js]("https://nodejs.org/en/") which is downloaded with each app. 
+**Electron** calls this the Main process and uses [Node.js]( https://nodejs.org/en/ ) which is downloaded with each app. 
 
 **Photino.Native** can be wrapped for any back end (C++, Rust, etc.).
 
-**<span>Photino.</span>NET** and **Photino.Blazor** use [.NET 5]("https://dotnet.microsoft.com/").
+**<span>Photino.</span>NET** and **Photino.Blazor** use [.NET 5]( https://dotnet.microsoft.com/ ).
 
 ## Host Application / Browser Control Communication
 **Electron** uses custom inter-process communication (IPC). The ipcMain and ipcRenderer libraries use ‘channels’- strings that identify which listener to use on the other end. ipcRenderer – can call all Node.js APIs e.g. `const root = fs.readdirSync(‘/’)` because everything is JavaScript in **Electron** applications and JavaScript code can be marshalled between processes as strings.
