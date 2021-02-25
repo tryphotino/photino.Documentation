@@ -6,7 +6,7 @@ This document is for C++ developers who would like to understand or contribute t
 ## Overview
 Photino.Native is a C++ wrapper around the OS's default browser control on Windows, Mac and Linux which creates a native OS window, places the browser control in it and exposes both the window and control to the host application.
 
-The source code can be found in a Visual Stuido solution in the [GitHub repository](https://github.com/tryphotino/photino.Native). It contains Microsoft C++ code for Windows, gcc C++ code for Linux, and Objective C++ code for Mac as well as code and resources shared in all 3 environments. 
+The source code can be found in a Visual Stuido solution in the [GitHub repository]( https://github.com/tryphotino/photino.Native ). It contains Microsoft C++ code for Windows, gcc C++ code for Linux, and Objective C++ code for Mac as well as code and resources shared in all 3 environments. 
 
 * The Windows code uses the Chromium-based Edge control in [webview2]("https://docs.microsoft.com/en-us/microsoft-edge/webview2/?ranMID=24542&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&epi=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&irgwc=1&OCID=AID2000142_aff_7593_1243925&tduid=(ir__jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00)(7593)(1243925)(je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ)()&irclickid=_jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00")
   
