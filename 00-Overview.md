@@ -30,4 +30,4 @@ C++ wrapper around the OS's default browser control on Windows, Mac and Linux wh
 Extension of Photino.NET that adds Blazor functionality to the Photino.Native hosted UI.
 
 ### Photino.Samples
-A collection of starter applications for .NET developers that highlights various web UI frameworks and capabilities suitable for learning Photino and for use as starting points for new projects. The installable project templates described are the preferred way to create these samples, though they can also be downloaded as .zip files.
+A collection of starter applications for .NET developers that highlights various web UI frameworks and capabilities suitable for learning Photino and for use as starting points for new projects. The installable project templates described are the preferred way to create these samples, though they can also be [downloaded]( https://github.com/tryphotino/photino.Samples/archive/master.zip ) as .zip files.
