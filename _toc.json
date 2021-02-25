@@ -16,6 +16,9 @@
           "link": "00-Overview.md"
         },
         {
+          "title": "Quick Start for .NET Developers",
+          "link": "00a-QuickStart.md"
+        },        {
           "title": "Photino Native",
           "link": "01-Photino.Native.md"
         },
@@ -40,10 +43,6 @@
           "link": "06-Photino.VSCodeTemplates.md"
         },
         {
-          "title": "Photino.Blazor - How it Works",
-          "link": "07-Photino.Blazor-HowItWorks.md"
-        },
-        {
           "title": "Contributor Info: Dev Process",
           "link": "50-ContributorInfo-DevelopmentProcess.md"
         },
@@ -54,7 +53,11 @@
         {
           "title": "Photino Comparison with Electron",
           "link": "70-Photino Comparison with Electron.md"
-        }
+        },
+        {
+          "title": "Frequently Asked Questions",
+          "link": "80-FrequentlyAskedQuestions.md"
+        }        
       ]
     }
   ]

@@ -9,6 +9,11 @@ If non-Blazor .NET web UIs are desired, please see the <span>Photino.</span>NET 
 
 The Visual Stuido solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/photino.Blazor )
 
+## How it Works
+Photino.Blazor is not Server-Side Blazor, nor is it WASM Client-Side Blazor. When the .NET (console) application starts, it uses the full .NET 5 framework. The framework can be pre-installed on the machine or it can come packaged with the application in the case of a "single file application". Execution of all .NET code in Blazor is redirected to the same framework as the console app.
+
+Both the console application process and the process for the native windows and browser control utilize the same framework. This is accomplished by including some of the Blazor source code in the photnio.Blazor project and modifying it for this purpose.
+
 ## Usage Instructions 
 If you just want to use the Photino.Blazor component, download or install the [NuGet package]( https://www.nuget.org/packages/Photino.Blazor/ ). If you only want to build and run Photino.Blazor-based projects, we recommend you install the Project Templates for Visual Studio and/or for dotnet CLI & VS Code.
 

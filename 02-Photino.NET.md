@@ -10,7 +10,7 @@ If Blazor UIs are desired, please see the Photino.Blazor documentation which bui
 The Visual Stuido solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/photino.NET ) and you can download a .zip file from there.
 
 ## Usage Instructions 
-If you just want to use the <span>Photino.</span>NET component, download or install the [NuGet package]( https://www.nuget.org/packages/Photino.NET/ ). If you only want to build and run Photino.Net-based projects, we recommend you install the Project Templates for Visual Studio and/or for dotnet CLI & VS Code as described [here]( ../00-Overview.md )
+If you just want to use the <span>Photino.</span>NET component, download or install the [NuGet package]( https://www.nuget.org/packages/Photino.NET/ ). If you only want to build and run Photino.Net-based projects, we recommend you install the Project Templates for Visual Studio and/or for dotnet CLI & VS Code as described [here]( ../00a-QuickStart.md )
 
 ## Building
 The GitHub repository includes .yml files for automated CI/CD builds, packaging and deployments via Azure DevOps Pipelines. Please refer to these files for the latest information on dependencies and build commands.

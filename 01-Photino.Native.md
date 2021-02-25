@@ -17,7 +17,7 @@ The source code can be found in a Visual Stuido solution in the [GitHub reposito
 Because these controls are always included on Windows and Mac and are usually included in Desktop Linux builds, there is no need to download or install the controls along with the application, making Photino applications lean and performant.
 
 ## Usage Instructions
-If you just want to use the Photino.Native component, download or install the [NuGet package]( https://www.nuget.org/packages/Photino.Native/ ). The required executable files for all environments are containted in the package and can be extracted using a NuGet utility or by renaming the .nupkg file to .zip and treating it as a .zip file.
+If you just want to use the Photino.Native component, download or install the [NuGet package]( https://www.nuget.org/packages/Photino.Native/ ). The required executable files for all environments are containted in the package and can be extracted using a NuGet utility or by renaming the .nupkg file to .zip and treating it as a .zip file. See [Quick Start]( ../00a-QuickStart.md ) for details.
 
 ## Building
 The GitHub repository includes .yml files for automated CI/CD builds, packaging and deployments via Azure DevOps Pipelines. Please refer to these files for the latest information on dependencies and build commands.
