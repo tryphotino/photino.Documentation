@@ -12,10 +12,6 @@
       "title": "Welcome to the Photino Docs",
       "topics": [
         {
-          "title": "Read Me",
-          "link": "README.md"
-        },
-        {
           "title": "Overview",
           "link": "00-Overview.md"
         },
