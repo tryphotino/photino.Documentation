@@ -57,7 +57,11 @@
         {
           "title": "Frequently Asked Questions",
           "link": "80-FrequentlyAskedQuestions.md"
-        }        
+        }, 
+        {
+          "title": "Photino Road Map",
+          "link": "90-PhotinoRoadMap.md"
+        }       
       ]
     }
   ]
