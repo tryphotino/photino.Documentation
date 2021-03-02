@@ -5,4 +5,4 @@
 * In-app update support 
 * Crash reporting
 * .NET 6 support
-* Mobile device support
+* Mobile device support 
