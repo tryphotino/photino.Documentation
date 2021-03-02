@@ -1,7 +1,5 @@
 # Photino Road Map
   
-  Hello
-  
 * Variations for non-.NET languages/platforms
 * Native menu support
 * In-app update support 
