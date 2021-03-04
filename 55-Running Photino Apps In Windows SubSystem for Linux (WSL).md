@@ -3,7 +3,7 @@ Yes, you can test your Photino applications in Windows Subsystem for Linux (WSL)
 <br><br>
 
 ## Configure Your Machine
-## Install VcXsrv
+### Install VcXsrv
 VcXsrv can be installed with a downloaded installer program obtained from the web page above. 
 
 Once VcXsrv server has been installed and run on your Windows machine, you'll see the X Server icon in your system tray. Right-click and choose 'Show Log'. The last few lines of the log should look something like this: 
@@ -14,7 +14,7 @@ Once VcXsrv server has been installed and run on your Windows machine, you'll se
 
 From the context menu of the system tray icon, there is an Applications submenu from which you can launch xcalc, xclock, and xwininfo; these Linux programs display their GUIs on your Windows desktop.
 
-## Set an Environment Variable in Your WSL2 Shell
+### Set an Environment Variable in Your WSL2 Shell
 1. Open a command prompt or PowerShell prompt in Windows, type `ipconfig` and hit enter. 
 2. Find the entry that reads: **Ethernet adapter vEthernet (WSL):** and make a note of the IPV4 address listed.
 3. Next, open a WSL shell and enter:<br>

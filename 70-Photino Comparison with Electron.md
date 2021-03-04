@@ -1,5 +1,6 @@
 # Photino vs. Electron
-Mike Yeager
+
+*This documentation is in still being developed and we think these sections should be added. Feel free to contribute.*
 
 [Electron Documentation]( https://electronjs.org/docs )
 

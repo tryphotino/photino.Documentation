@@ -39,7 +39,7 @@ Project templates will now be available on your dev machine and you can copy the
 8.	A new Visual Studio instance will open with the templates installed for testing. You will likely see 2 copies of each template since there is already a copy in the \ProjectTemplates folder from the steps above.
 
 ## Upload VSIX Extension to Visual Studio Gallery
-* Sign in to https://marketplace.visualstudio.com with tryphotino@outlook.com Microsoft ID
+* A Photino contributor with account information can sign in to https://marketplace.visualstudio.com with tryphotino@outlook.com Microsoft ID
 * Click the “Publish Extensions” link
 
 

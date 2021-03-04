@@ -1,18 +1,18 @@
 
-![](photino-logo-full.png)
+<img src="photino-logo-full.png" width="400"/>
 # Overview
 
 Photino is a set of technologies for creating desktop apps with web (HTML/CSS/JavaScript) UIs. TryPhotino.io maintains the .NET build out and encourages the community to develop the Photino.Native control for use in other languages and platforms. We encourage and will support development of Photino.CPP, Photino.Rust, Photino.Go and others.
 
-**WHY ARE THESE IMAGES HERE? I ENCOURAGE SOME BODY TEXT TO DESCRIBE THEM.**
+Use Photino with your favorite web framework.
 
-![](PhotinoBlazorSamples.png)
-
-![](Photino-hello-world-angular-windows.png)
-
-![](Photino-hello-world-vue-windows.png)
-
-![](Photino-hello-world-react-windows.png)
+<img src="PhotinoBlazorSamples.png" style="display: block; width: 100%; max-width: 1000px;" alt="Photino.HelloWorld.SBlazer" />
+ <br>
+<img src="Photino-hello-world-angular-windows.png" style="display: block; width: 100%; max-width: 1000px;" alt="Photino.HelloWorld.Angular" />
+ <br>
+<img src="Photino-hello-world-vue-windows.png" style="display: block; width: 100%; max-width: 1000px;" alt="Photino.HelloWorld.Vue" />
+ <br>
+<img src="Photino-hello-world-react-windows.png" style="display: block; width: 100%; max-width: 1000px;" alt="Photino.HelloWorld.React" />
 
 ## Quick Start for .NET Developers
 [Go to Quick Start]( ../00a-QuickStart.md )
