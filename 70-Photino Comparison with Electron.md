@@ -22,7 +22,7 @@
 ## Host Application / Browser Control Communication
 **Electron** uses custom inter-process communication (IPC). The ipcMain and ipcRenderer libraries use ‘channels’- strings that identify which listener to use on the other end. ipcRenderer – can call all Node.js APIs e.g. `const root = fs.readdirSync(‘/’)` because everything is JavaScript in **Electron** applications and JavaScript code can be marshalled between processes as strings.
 
-**<span>Photino.</span>NET** and **Photino.Blazor** use memory streams to communicate with Photino.Native and ‘schemes’; which are outlet points in the HTML. The standard is to transfer a JSON payload which includes a unique message id, the name of the method to call, any parameters to pass and to receive a JSON payload containing the unique message id of the original call and any response data.
+**<span>Photino.</span>NET** and **Photino.Blazor** use memory streams to communicate with the Photino.Native process and ‘schemes’; which are outlet points in the HTML. The standard is to transfer a JSON payload which includes a unique message id, the name of the method to call, any parameters to pass and to receive a JSON payload containing the unique message id of the original call and any response data.
 
 In addition, it's common for **<span>Photino.</span>NET** and **Photino.Blazor** projects to host REST services which can be called from the browser control using standard JavaScript in a commonly used communication pattern.
 <br>
