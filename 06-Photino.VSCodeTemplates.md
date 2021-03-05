@@ -8,7 +8,7 @@ The VS Code Templates project installs project templates for creating the Photin
 
 Photino project templates create bare-bones sample applications for various Photino project flavors such as .NET (plain html), Angular, React, Vue, and Blazor. Installing the project templates for Visual Studio 2019, the dotnet CLI and/or VS Code is the easiest way to get up and running creating Photino apps for .NET 5.
 
-The Visual Studio solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/photino.VSCodeTemplates ) and you can download a .zip file containing the samples there.
+The Visual Studio solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/PhotinoSamples.VSCodeTemplates ) and you can download a .zip file containing the samples there.
 
 ## Usage Instructions 
 If you just want to use the project templates (not become a contributor), we recommend installing the project templates by using the dotnet CLI to install the templates NuGet package:
