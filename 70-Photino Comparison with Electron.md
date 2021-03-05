@@ -65,14 +65,14 @@ Manual Distribution
 
 ### Linux Desktop Launcher
 
-### **Local and Global Keyboard Shortcuts
+### Local and Global Keyboard Shortcuts
 
 ### Online/Offline Event Detection
 
 ### Represented File (Mac)
 **Electron** supports Represented Files on Mac OS Browser Windows
 
-### **OS Native Drag & Drop
+### OS Native Drag & Drop
 
 ### Offscreen Rendering
 
