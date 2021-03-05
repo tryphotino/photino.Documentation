@@ -15,7 +15,7 @@ Photino.Blazor is not Server-Side Blazor, nor is it WASM Client-Side Blazor. Whe
 Both the console application process and the process for the native windows and browser control utilize the same framework. This is accomplished by including some of the Blazor source code in the photnio.Blazor project and modifying it for this purpose.
 
 ## Usage Instructions 
-If you just want to use the Photino.Blazor component, download or install the [NuGet package]( https://www.nuget.org/packages/Photino.Blazor/ ). If you only want to build and run Photino.Blazor-based projects, we recommend you install the Project Templates for Visual Studio and/or for dotnet CLI & VS Code.
+If you just want to use the Photino.Blazor component, download or install the [NuGet package]( https://www.nuget.org/packages/Photino.Blazor/ ). If you only want to build and run Photino.Net-based projects, we recommend you install the Project Templates for Visual Studio and/or for dotnet CLI & VS Code as described [here]( ../00a-QuickStart.md )
 
 ## Building
 The GitHub repository includes .yml files for automated CI/CD builds, packaging and deployments via Azure DevOps Pipelines. Please refer to these files for the latest information on dependencies and build commands.
