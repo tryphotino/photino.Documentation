@@ -21,6 +21,9 @@
         },        {
           "title": "Photino Native",
           "link": "01-Photino.Native.md"
+        },        {
+          "title": "License",
+          "link": "License.md"
         },
         {
           "title": "Photino .NET",
