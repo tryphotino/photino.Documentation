@@ -1,5 +1,5 @@
 # Run Photino Apps in WSL2
-Yes, you can test your Photino applications in Windows Subsystem for Linux (WSL)! We've tested with WSL2 and Ubuntu 20.04. While we don't officially support running Photino Linux apps in WSL2, we recognize that it is useful for testing and demos. It does require a little configuration however, because WSL does not have a graphical UI. To compensate, Linux has the X Window System, sometimes referred to as X11 or just X which provides for basic GUI functions. We've tested with an X Windows System for Windows named [Vcxsrv]( https://sourceforge.net/projects/vcxsrv/ ) which can be found on SourceForge. 
+Yes, you can test your Photino applications in Windows Subsystem for Linux (WSL)! We've tested with WSL2 and Ubuntu 20.04. While we don't officially support running Photino Linux apps in WSL2, we recognize that it is useful for testing and demos. It does require a little configuration however, because WSL does not have a graphical UI. To compensate, Linux has the X Window System, sometimes referred to as X11 or just X which provides for basic GUI functions. We've tested with an X Windows System for Windows named [VcXsrv]( https://sourceforge.net/projects/vcxsrv/ ) which can be found on SourceForge. 
 <br><br>
 
 ## Configure Your Machine
