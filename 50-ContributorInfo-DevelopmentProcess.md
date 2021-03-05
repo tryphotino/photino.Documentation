@@ -26,9 +26,9 @@ The .Test projects use the debug NuGet packages for <span>photino.</span>NET or 
 The photino.Samples repo contains projects which use the publicly released NuGet packages for <span>Photino.</span>NET or photino.Blazor. They are used as the source for the project templates for Visual Studio: PhotinoSamples.VSExtension and for the dotnet CLI (with or without VS Code): PhotinoSamples.VSCodeTemplates.
 
 ## PhotinoSamples.VSExtension
-The PhotinoSamples.VSExtension repo is used to produce a Visual Studio (2019 or later) VSIX extension containing project templates for all of the photino.Samples projects. See [05-Photino.VSExtension.md]( ../05-Photino.VSExtension.md ) for guidance on creating and publishing these templates.
+The PhotinoSamples.VSExtension repo is used to produce a Visual Studio (2019 or later) VSIX extension containing project templates for all of the photino.Samples projects. See [Photino VSExtension]( ../05-Photino.VSExtension.md ) for guidance on creating and publishing these templates.
 
 ## PhotinoSamples.VSCodeTemplates
-The PhotinoSamples.VSCodeTemplates repo is used to produce a NuGet package which can be used by the dotnet CLI to install project templates for all of the photino.Samples projects. See [06-Photino.VSCodeTemplates.md]( ../06-Photino.VSCodeTemplates.md ) for guidance on creating and publishing these templates.
+The PhotinoSamples.VSCodeTemplates repo is used to produce a NuGet package which can be used by the dotnet CLI to install project templates for all of the photino.Samples projects. See [Photino VSCodeTemplates]( ../06-Photino.VSCodeTemplates.md ) for guidance on creating and publishing these templates.
 
 ![](PhotinoHierarchy.png)
