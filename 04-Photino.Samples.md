@@ -18,7 +18,7 @@ The following templates are available and new samples will be added:
 * **photinoreact** - basic sample with React.js framework
 * **photinovue** - basic sample with Vue.js framework
 * **photino3d** - uses 3.js library to render 3d graphics
-* **photino3dreact**  - uses 3.js library to render 3d graphics in the React.js framework
+* **photino3dreact** - uses 3.js library to render 3d graphics in the React.js framework
 * **photinoappwithapi** - make WebAPI calls from UI to application (separate WebAPI project)
 * **photinogrpc** - make gRPC calls from UI to application (single project)
 * **photinoadvanced** - WebAPI, OS interactions, PowerShell commands and system dialogs
