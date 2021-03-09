@@ -22,11 +22,15 @@ $ dotnet new -i TryPhotino.VSCode.Project.Templates
 # See a list of available templates
 $ dotnet new -l
 
-# Create a new sample app from the Photino.HelloPhotino.NET template
-$ dotnet new photinoapp
+# Navigate to the folder in which to create a new sub-folder for the new project
+$ cd MyProjects
 
-# Change into sample app directory
-$ cd photinoapp
+# Create a new sample app from the Photino.HelloPhotino.NET template
+# A folder will be created to match your -o parameter
+$ dotnet new photinoapp -o MyPhotinoApp
+
+# Navigate into the new folder you just created
+$ cd MyPhotinoApp
 
 # Run the application
 $ dotnet run
