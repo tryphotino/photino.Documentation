@@ -13,8 +13,24 @@ On Windows 10, the Edge Dev Channel version needs to be installed from <a href="
 Visual Studio users should install the [Visual Studio Photino Project Templates Extension]( https://marketplace.visualstudio.com/items?itemName=TryPhotino.PhotinoSamplesVSExtension ) and search for Photino in the New Project dialog.
 
  ### dotnet CLI Users
-dotnet CLI and Visual Studio Code users should install the [Photino for .NET CLI and VS Code Project Templates NuGet Package]( https://www.nuget.org/packages/TryPhotino.VSCode.Project.Templates/ ). Use `dotnet new --install TryPhotino.VSCode.Project.Templates` to install the templates, `dotnet new -l` to list installed templates, ` dotnet new photinoxxxxxx` to create new projects from the templates, and `dotnet run` to run the samples.
+dotnet CLI and Visual Studio Code users should install the [Photino for .NET CLI and VS Code Project Templates NuGet Package]( https://www.nuget.org/packages/TryPhotino.VSCode.Project.Templates/ ). 
 
+```
+# Install .NET templates
+$ dotnet new -i TryPhotino.VSCode.Project.Templates
+
+# See a list of available templates
+$ dotnet new -l
+
+# Create a new sample app from the Photino.HelloPhotino.NET template
+$ dotnet new photinoapp
+
+# Change into sample app directory
+$ cd photinoapp
+
+# Run the application
+$ dotnet run
+```
 ### Sample Project Templates
 The following templates are available and new samples are being added:
 * **photinoapp** - basic .NET 5 sample
