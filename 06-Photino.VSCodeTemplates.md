@@ -27,7 +27,7 @@ Create/Test a Single Project Template
 4.	Verify the contents of the template.json files in the .template.config sub folders for each project.
 5.	Delete any files and folders that should not be part of the template, like `./bin`, `./obj` and `.gitignore`. Warning: DO NOT delete the .template.config folders!
 6.	From each project folder type `dotnet new -i ./` to install the template on your machine.
-7.	Navigate to the *<...>\Photino\photino.PhotinoSamples.VSCodeTemplates\test* folder and delete all contents. If there is no *\test* folder, create one.
+7.	Navigate to the `<...>\PhotinoSamples.VSCodeTemplates\test` folder and delete all contents. If there is no *\test* folder, create one.
 8.	Type `dotnet new photinoangular` (or other sample, this is the shortName from the template.json file for each project) to test each template.
 9.	Type `dotnet run` to test that the project is created correctly.
 10.	Delete the contents of the test folder after testing each template.
