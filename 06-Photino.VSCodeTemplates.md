@@ -21,7 +21,7 @@ If you just want to use the project templates (not become a contributor), we rec
 
 ## Building
 Create/Test a Single Project Template
-1.	Open a command prompt in the *<...>\Photino\photino.PhotinoSamples.VSCodeTemplates\working\templates* folder [GitHub]( https://github.com/tryphotino/PhotinoSamples.VSCodeTemplates ).
+1.	Open a command prompt in the `<...>\PhotinoSamples.VSCodeTemplates\working\templates` folder [GitHub]( https://github.com/tryphotino/PhotinoSamples.VSCodeTemplates ).
 2.	Copy the latest versions of the source code for the projects in the Photino.PhotinoSamples solution into the matching folders in PhotinoSamples.VSCodeTemplates [GitHub]( https://github.com/tryphotino/photino.Samples ).
 3.	Type `dotnet run` at the prompt to ensure each project builds and runs correctly.
 4.	Verify the contents of the template.json files in the .template.config sub folders for each project.
@@ -31,12 +31,12 @@ Create/Test a Single Project Template
 8.	Type `dotnet new photinoangular` (or other sample, this is the shortName from the template.json file for each project) to test each template.
 9.	Type `dotnet run` to test that the project is created correctly.
 10.	Delete the contents of the test folder after testing each template.
-11.	Type `dotnet new -u <...>\Photino\photino.PhotinoSamples.VSCodeTemplates\working\templates\<project>` to uninstall each template.
+11.	Type `dotnet new -u <...>\PhotinoSamples.VSCodeTemplates\working\templates\<project>` to uninstall each template.
 
 Pack All Project Templates
 
 1.	Ensure all individual templates are up to date and work correctly (per single template above).
-2.	Open VS Code (or another editor) to the *<...>\Photino\photino.PhotinoSamples.VSCodeTemplates\working* folder.
+2.	Open VS Code (or another editor) to the `<...>\PhotinoSamples.VSCodeTemplates\working` folder.
 3.	Edit the templatepack.csproj file to set version number for the NuGet package.
 4.	From a terminal window or shell prompt, type `dotnet pack` to create the NuGet package.
 5.	Note that you will likely see warnings. This is normal.
