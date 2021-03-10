@@ -41,15 +41,6 @@ Pack All Project Templates
 4.	From a terminal window or shell prompt, type `dotnet pack` to create the NuGet package.
 5.	Note that you will likely see warnings. This is normal.
 6.	Assuming you have *NuGet Package Explorer* installed from the Microsoft Store (or some other package explorer utility), double-click on the NuGet package to inspect, update, and verify it.
-7.	You must fill in some of the data manually as `dotnet pack` does not work with the following tags:
-
-| Tag | Value to use |
-| :----- | :-------------- |
-| Owners | TryPhotino |
-| ProjectUrl | https://tryphotino.io |
-| Copyright | TryPhotino 2021 |
-
-<br>
 
 ## Upload Package to NuGet
 * Log into <https://nuget.org> with your Microsoft ID.
