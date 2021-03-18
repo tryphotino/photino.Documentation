@@ -14,7 +14,7 @@ The source code can be found in a Visual Studio solution in the [GitHub reposito
 
 * The Mac code uses the WebKit-based browser control in [WKWebView]( https://developer.apple.com/documentation/webkit/wkwebview ).
 
-Because these controls are always included on Windows and Mac and are usually included in Desktop Linux builds, there is no need to download or install the controls along with the application, making Photino applications lean and performant.
+Because these controls are often included or already installed on Windows and Mac, there is often no need to download or install the controls along with the application, making Photino applications lean and performant.
 
 ## Usage Instructions
 If you just want to use the Photino.Native component, download or install the [NuGet package]( https://www.nuget.org/packages/Photino.Native/ ). The required executable files for all environments are contained in the package and can be extracted using a NuGet utility or by renaming the .nupkg file to .zip and treating it as a .zip file. See [Quick Start]( ../00a-QuickStart.md ) for details.
