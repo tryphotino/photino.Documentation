@@ -1,4 +1,5 @@
 # Photino.Blazor
+NOTE: Photino.Blazor is no longer being maintained by this group. We envision it be superceded by .NET 6 and MAUI (Xamarin Forms vNext).
 ## Audience
 This document is for .NET developers who would like to understand or contribute to the Photino.Blazor and <span>Photino.</span>NET projects. It is a reference implementation of the Photino.Native project for the .NET development platform using Blazor.
 

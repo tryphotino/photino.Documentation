@@ -19,11 +19,8 @@ Pull requests into the *debug* branch for projects which have one will be evalua
 
 Pull requests into the *master* branch of repos without a *debug* branch will occur at least monthly.
 
-## photino.Test
-The .Test projects use the debug NuGet packages for <span>photino.</span>NET or photino.Blazor. They are used for testing new builds of the NuGet packages, testing new features or developing new .Sample projects.
-
 ## photino.Samples
-The photino.Samples repo contains projects which use the publicly released NuGet packages for <span>Photino.</span>NET or photino.Blazor. They are used as the source for the project templates for Visual Studio: PhotinoSamples.VSExtension and for the dotnet CLI (with or without VS Code): PhotinoSamples.VSCodeTemplates.
+The photino.Samples repo contains projects which use the publicly released NuGet packages for <span>Photino.</span>NET. They are used as the source for the project templates for Visual Studio: PhotinoSamples.VSExtension and for the dotnet CLI (with or without VS Code): PhotinoSamples.VSCodeTemplates.
 
 ## PhotinoSamples.VSExtension
 The PhotinoSamples.VSExtension repo is used to produce a Visual Studio (2019 or later) VSIX extension containing project templates for all of the photino.Samples projects. See [Photino VSExtension]( ../05-Photino.VSExtension.md ) for guidance on creating and publishing these templates.

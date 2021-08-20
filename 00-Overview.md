@@ -25,7 +25,8 @@ C++ wrapper around the OS's default browser control on Windows, Mac and Linux wh
 .NET implementation of the Photino.Native control (beginning with .NET 5). Allows .NET developers to develop .NET applications that host a Photino.Native window for hosting a UI written in HTML/CSS/JavaScript.
 
 ### Photino.Blazor
-Extension of <span>Photino.</span>NET that adds Blazor functionality to the Photino.Native hosted UI.
+Extension of <span>Photino.</span>NET that adds Blazor functionality to the Photino.Native hosted UI.<br>
+NOTE: Photino.Blazor is no longer being maintained by this group. We envision it be superceded by .NET 6 and MAUI (Xamarin Forms vNext).
 
 ### Photino.Samples
 A collection of starter applications for .NET developers that highlights various web UI frameworks and capabilities suitable for learning Photino and for use as starting points for new projects. The installable project templates described are the preferred way to create these samples, though they can also be [downloaded](https://github.com/tryphotino/photino.Samples/archive/master.zip) as .zip files.

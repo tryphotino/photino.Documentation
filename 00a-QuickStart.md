@@ -38,12 +38,11 @@ $ dotnet run
 ### Sample Project Templates
 The following templates are available and new samples are being added:
 * **photinoapp** - basic .NET 5 sample
+* **photinotestbench** - test every available setting and option 
 * **photinoangular** - basic sample with Angular framework
 * **photinoreact** - basic sample with React.js framework
 * **photinovue** - basic sample with Vue.js framework
 * **photino3d** - uses 3.js library to render 3d graphics
 * **photino3dreact** - uses 3.js library to render 3d graphics in the React.js framework
-* **photinoappwithapi** - make WebAPI calls from UI to application (separate WebAPI project)
 * **photinogrpc** - make gRPC calls from UI to application (single project)
-* **photinoadvanced** - OS interactions, PowerShell commands and system dialogs
-* **photinoblazor** - Blazor UI
+* **photinomultiwindow** - create multiple child windows from parent window

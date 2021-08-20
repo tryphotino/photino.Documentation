@@ -18,6 +18,10 @@
         {
           "title": "Quick Start for .NET Developers",
           "link": "00a-QuickStart.md"
+        },
+        {
+          "title": "What's New in V2",
+          "link": "00b-WhatsNewInV2.md"
         },        {
           "title": "Photino Native",
           "link": "01-Photino.Native.md"

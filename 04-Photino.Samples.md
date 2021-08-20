@@ -14,15 +14,14 @@ If you just want to use the samples projects (not become a contributor), we reco
 ## Available Samples
 The following templates are available and new samples will be added:
 * **photinoapp** - basic .NET 5 sample
+* **photinotestbench** - test every available setting and option 
 * **photinoangular** - basic sample with Angular framework
 * **photinoreact** - basic sample with React.js framework
 * **photinovue** - basic sample with Vue.js framework
 * **photino3d** - uses 3.js library to render 3d graphics
 * **photino3dreact** - uses 3.js library to render 3d graphics in the React.js framework
-* **photinoappwithapi** - make WebAPI calls from UI to application (separate WebAPI project)
 * **photinogrpc** - make gRPC calls from UI to application (single project)
-* **photinoadvanced** - WebAPI, OS interactions, PowerShell commands and system dialogs
-* **photinoblazor** - Blazor UI
+* **photinomultiwindow** - create multiple child windows from parent window
   
 ## Building
 Use standard Visual Studio build procedures for Visual Studio. If you're using the dotnet CLI (with or without VS CODE), use the standard `dotnet restore`, `dotnet build`, and `dotnet run` commands. 

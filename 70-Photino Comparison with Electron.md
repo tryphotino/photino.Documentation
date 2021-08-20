@@ -8,7 +8,7 @@
 **Electron** calls this the Renderer process and uses Chromium in a native window. Chromium is downloaded with each app. 
 
 **Photino** tries to use whatever is normally included in the OS: 
-* Windows - Chromium Edge [webview2]( https://docs.microsoft.com/en-us/microsoft-edge/webview2/?ranMID=24542&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&epi=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&irgwc=1&OCID=AID2000142_aff_7593_1243925&tduid=(ir__jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00)(7593)(1243925)(je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ)()&irclickid=_jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00 ) 
+* Windows - Chromium Edge [WebView2]( https://docs.microsoft.com/en-us/microsoft-edge/webview2/?ranMID=24542&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&epi=je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ&irgwc=1&OCID=AID2000142_aff_7593_1243925&tduid=(ir__jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00)(7593)(1243925)(je6NUbpObpQ-T5b4unLww4VC4k9j9e_XIQ)()&irclickid=_jmet23akugkftm1hkk0sohzibm2xpj1pijghddor00 ) 
 * Linux - [WebKitGTK+2]( https://webkitgtk.org/ ) 
 * Mac - [WKWebView]( https://developer.apple.com/documentation/webkit/wkwebview )
 
@@ -17,14 +17,14 @@
 
 **Photino.Native** can be wrapped for any back end (C++, Rust, etc.).
 
-**<span>Photino.</span>NET** and **Photino.Blazor** use [.NET 5]( https://dotnet.microsoft.com/ ).
+**<span>Photino.</span>NET** uses [.NET 5]( https://dotnet.microsoft.com/ ).
 
 ## Host Application / Browser Control Communication
 **Electron** uses custom inter-process communication (IPC). The ipcMain and ipcRenderer libraries use ‘channels’- strings that identify which listener to use on the other end. ipcRenderer – can call all Node.js APIs e.g. `const root = fs.readdirSync(‘/’)` because everything is JavaScript in **Electron** applications and JavaScript code can be marshalled between processes as strings.
 
-**<span>Photino.</span>NET** and **Photino.Blazor** use memory streams to communicate with the Photino.Native process and ‘schemes’; which are outlet points in the HTML. The standard is to transfer a JSON payload which includes a unique message id, the name of the method to call, any parameters to pass and to receive a JSON payload containing the unique message id of the original call and any response data.
+**<span>Photino.</span>NET** uses memory streams to communicate with the Photino.Native process and ‘schemes’; which are outlet points in the HTML. The standard is to transfer a JSON payload which includes a unique message id, the name of the method to call, any parameters to pass and to receive a JSON payload containing the unique message id of the original call and any response data.
 
-In addition, it's common for **<span>Photino.</span>NET** and **Photino.Blazor** projects to host REST services which can be called from the browser control using standard JavaScript in a commonly used communication pattern.
+In addition, it's common for **<span>Photino.</span>NET** projects to host REST services which can be called from the browser control using standard JavaScript in a commonly used communication pattern.
 <br>
 
 ## Distribution

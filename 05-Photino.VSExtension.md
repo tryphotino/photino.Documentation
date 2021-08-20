@@ -6,7 +6,7 @@ This document is for .NET developers using Visual Studio 2019 or later who would
 ## Overview
 The Visual Studio Extension installs project templates for creating the Photino.NET and Photino.Blazor sample projects.
 
-Photino project templates create bare-bones sample applications for various Photino project flavors such as .NET (plain html), Angular, React, Vue, and Blazor. Installing the project templates for Visual Studio 2019, the dotnet CLI and/or VS Code is the easiest way to get up and running creating Photino apps for .NET 5.
+Photino project templates create bare-bones sample applications for various Photino project flavors such as .NET (plain HTML), Angular, React, Vue, etc. Installing the project templates for Visual Studio 2019, the dotnet CLI and/or VS Code is the easiest way to get up and running creating Photino apps for .NET 5.
 
 The Visual Studio solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/PhotinoSamples.VSExtension )
 
@@ -18,10 +18,11 @@ Open the solution in Visual Studio 2019 or later with the **ASP.NET and web deve
 
 1.	Open the Photino.Samples solution [GitHub]( https://github.com/tryphotino/photino.Samples ).
 2.	Update the samples as required and ensure they build and run correctly.
-3.	From the Project menu, select Export Template…. 
-4.  Select *Project Template*.
-5.	For each project, enter description as: “Photino.XXX Sample application with XXX UI”.
-6.	Set icon and preview images if you have them.
+3.	Make sure to delete any node_modules folders!!!!
+4.  From the Project menu, select Export Template…. 
+5.  Select *Project Template*.
+6.	For each project, enter description as the description listed in the Samples documentation.
+7.	Set icon and preview images if you have them.
 
 Zip files are written to:
 * C:\Users\xxxx\Documents\Visual Studio 2019\Templates\ProjectTemplates
@@ -40,6 +41,7 @@ Project templates will now be available on your dev machine and you can copy the
 
 ## Upload VSIX Extension to Visual Studio Gallery
 * A Photino contributor with account information can sign in to https://marketplace.visualstudio.com with tryphotino@outlook.com Microsoft ID
-* Click the “Publish Extensions” link
+*	Find the extension. Click “manage” link. Click the “…” menu, choose Edit. Click pencil icon next to step 1, Upload new version of the VSIX (created in the bin folder).
+
 
 
