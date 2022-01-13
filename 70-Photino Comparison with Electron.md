@@ -17,7 +17,7 @@
 
 **Photino.Native** can be wrapped for any back end (C++, Rust, etc.).
 
-**<span>Photino.</span>NET** uses [.NET 5]( https://dotnet.microsoft.com/ ).
+**<span>Photino.</span>NET** uses [.NET 5]( https://dotnet.microsoft.com/ ) (or later).
 
 ## Host Application / Browser Control Communication
 **Electron** uses custom inter-process communication (IPC). The ipcMain and ipcRenderer libraries use ‘channels’- strings that identify which listener to use on the other end. ipcRenderer – can call all Node.js APIs e.g. `const root = fs.readdirSync(‘/’)` because everything is JavaScript in **Electron** applications and JavaScript code can be marshalled between processes as strings.
