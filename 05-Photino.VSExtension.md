@@ -6,7 +6,7 @@ This document is for .NET developers using Visual Studio 2019 or later who would
 ## Overview
 The Visual Studio Extension installs project templates for creating the Photino.NET and Photino.Blazor sample projects.
 
-Photino project templates create bare-bones sample applications for various Photino project flavors such as .NET (plain HTML), Angular, React, Vue, etc. Installing the project templates for Visual Studio 2019, the dotnet CLI and/or VS Code is the easiest way to get up and running creating Photino apps for .NET 5.
+Photino project templates create bare-bones sample applications for various Photino project flavors such as .NET (plain HTML), Angular, React, Vue, etc. Installing the project templates for Visual Studio 2019, the dotnet CLI and/or VS Code is the easiest way to get up and running creating Photino apps for .NET 5 (or later).
 
 The Visual Studio solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/PhotinoSamples.VSExtension )
 
