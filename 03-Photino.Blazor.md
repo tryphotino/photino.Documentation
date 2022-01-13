@@ -1,17 +1,17 @@
 # Photino.Blazor
-NOTE: Photino.Blazor is no longer being maintained by this group. We envision it be superceded by .NET 6 and MAUI (Xamarin Forms vNext).
+NOTE: Photino.Blazor has been updated by the community and now requires .NET 6.
 ## Audience
 This document is for .NET developers who would like to understand or contribute to the Photino.Blazor and <span>Photino.</span>NET projects. It is a reference implementation of the Photino.Native project for the .NET development platform using Blazor.
 
 ## Overview
-Photino.Blazor builds on <span>Photino.</span>NET by using the <span>Photino.</span>NET NuGet package. Its purpose is to make it easy for .NET developers to create .NET 5 and later desktop applications using a Blazor web UI that can work cross-platform on Windows, Linux and Mac instead of building OS specific UIs with technologies like Windows Forms, Windows Presentation Foundation (WPF), Xcode, Swift, or GTK. It simply adds Blazor capabilities to the .NET package.
+Photino.Blazor builds on <span>Photino.</span>NET by using the <span>Photino.</span>NET NuGet package. Its purpose is to make it easy for .NET developers to create .NET 6 and later desktop applications using a Blazor web UI that can work cross-platform on Windows, Linux and Mac instead of building OS specific UIs with technologies like Windows Forms, Windows Presentation Foundation (WPF), Xcode, Swift, or GTK. It simply adds Blazor capabilities to the .NET package.
 
 If non-Blazor .NET web UIs are desired, please see the <span>Photino.</span>NET documentation.
 
 The Visual Studio solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/photino.Blazor )
 
 ## How it Works
-Photino.Blazor is not Server-Side Blazor, nor is it WASM Client-Side Blazor. When the .NET (console) application starts, it uses the full .NET 5 framework. The framework can be pre-installed on the machine or it can come packaged with the application in the case of a "single file application." Execution of all .NET code in Blazor is redirected to the same framework as the console app.
+Photino.Blazor is not Server-Side Blazor, nor is it WASM Client-Side Blazor. When the .NET (console) application starts, it uses the full .NET 6 framework. The framework can be pre-installed on the machine or it can come packaged with the application in the case of a "single file application." Execution of all .NET code in Blazor is redirected to the same framework as the console app.
 
 Both the console application process and the process for the native windows and browser control utilize the same framework. This is accomplished by including some of the Blazor source code in the photnio.Blazor project and modifying it for this purpose.
 
