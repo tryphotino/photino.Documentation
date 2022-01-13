@@ -13,7 +13,7 @@ If you just want to use the samples projects (not become a contributor), we reco
 
 ## Available Samples
 The following templates are available and new samples will be added:
-* **photinoapp** - basic .NET 5 sample
+* **photinoapp** - basic .NET 5 (or later) sample
 * **photinotestbench** - test every available setting and option 
 * **photinoangular** - basic sample with Angular framework
 * **photinoreact** - basic sample with React.js framework
