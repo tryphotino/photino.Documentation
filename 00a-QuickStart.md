@@ -37,7 +37,7 @@ $ dotnet run
 ```
 ### Sample Project Templates
 The following templates are available and new samples are being added:
-* **photinoapp** - basic .NET 5 sample
+* **photinoapp** - basic .NET 5 (or later) sample
 * **photinotestbench** - test every available setting and option 
 * **photinoangular** - basic sample with Angular framework
 * **photinoreact** - basic sample with React.js framework
