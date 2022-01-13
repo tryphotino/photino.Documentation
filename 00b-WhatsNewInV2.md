@@ -1,6 +1,7 @@
 # What's New in V2
 
 ## What’s New
+*	Photino.Blazor has been updated by the community and now requires .NET 6.
 *	Improved .NET Intelli-sense documentation
 *	Improved organization of the source code
 *	Improved ability to add new startup parameters and features in the future
