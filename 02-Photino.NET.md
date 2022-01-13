@@ -6,7 +6,7 @@ This document is for .NET developers who would like to understand or contribute 
 <span>Photino.</span>NET is a wrapper around the Photino.Native C++ control using the Photino.Native NuGet package. It's purpose is to make it easy for .NET developers to create .NET 5 and later desktop applications using a web (HTML5/CSS/JavaScript) UI that can work cross-platform on Windows, Linux and Mac instead of building OS-specific UIs with technologies like Windows Forms, Windows Presentation Foundation (WPF), Xcode, Swift, or GTK.
 
 If Blazor UIs are desired, please see the Photino.Blazor documentation which builds on <span>Photino.</span>NET.<br>
-NOTE: Photino.Blazor is no longer being maintained by this group. We envision it be superceded by .NET 6 and MAUI (Xamarin Forms vNext).
+NOTE: Photino.Blazor has recently been updated by the community and now requires .NET 6.
 
 The Visual Studio solution source code can be found in the [GitHub repository]( https://github.com/tryphotino/photino.NET ) and you can download a .zip file from there.
 
