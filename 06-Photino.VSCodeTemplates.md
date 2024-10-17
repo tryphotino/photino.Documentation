@@ -12,7 +12,7 @@ The Visual Studio solution source code can be found in the [GitHub repository]( 
 
 ## Usage Instructions 
 If you just want to use the project templates (not become a contributor), we recommend installing the project templates by using the dotnet CLI to install the templates NuGet package:
-* Type `dotnet new -i TryPhotino.VSCode.Project.Templates` (the NuGet package name) to install the templates.
+* Type `dotnet new install TryPhotino.VSCode.Project.Templates` (the NuGet package name) to install the templates.
 * Type `dotnet new photinoangular` (or other sample short name) to create a new project using that template.
 * Type `dotnet new -l` or `dotnet new -u` to list all installed project templates.
 * Type `dotnet new -u TryPhotino.VSCode.Project.Templates` to uninstall the templates.
